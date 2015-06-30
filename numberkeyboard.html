@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>数字键盘</title>
+
+	<script src="./jquery.min.js"></script>
+    <script src="_numkeyboard.js"></script>
+    <script src="modal.js"></script>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="button.css" rel="stylesheet">
+    <link href="modal.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+  	<div class="numberkeyboard numberkeyboard-width">
+        <div>
+            <input id='passport' type="text" placeholder="请输入取餐码" class="form-control numberkeyboard-width"/>
+        </div>
+        <div>
+            <button id='b1' type="button" class="btn btn-default btn-lg">1</button>
+            <button id='b2' type="button" class="btn btn-default btn-lg">2</button>
+            <button id='b3' type="button" class="btn btn-default btn-lg">3</button>
+            <button id='x'  type="button" class="btn btn-default btn-lg">X</button>
+        </div>
+        <div>
+            <button id='b4' type="button" class="btn btn-default btn-lg">4</button>
+            <button id='b5' type="button" class="btn btn-default btn-lg">5</button>
+            <button id='b6' type="button" class="btn btn-default btn-lg">6</button>
+            <button id='c'  type="button" class="btn btn-default btn-lg">清空</button>
+        </div>
+        <div>
+            <button id='b7' type="button" class="btn btn-default btn-lg">7</button>
+            <button id='b8' type="button" class="btn btn-default btn-lg">8</button>
+            <button id='b9' type="button" class="btn btn-default btn-lg">9</button>
+            <button id='b0' type="button" class="btn btn-default btn-lg">0</button>
+        </div>
+        <div>
+            <button id='sure' type="button" class="btn btn-primary btn-lg numberkeyboard-width">确            定</button>
+        </div>
+    </div>
+
+    <div id="modal-overlay">
+		<div class="modal-data">
+			<div class="just-for-placeholder"></div><button id="closeButton" type="button" class="btn btn-primary btn-lg">X</button>
+			
+		    <div id="msg" class="ClsMsg">请到 1 号格子取餐</div>
+		    <div id="smallTimeout" class="TimeOut">( 还剩 <label>15</label> 秒自动关闭)</div>
+		    <button id="returnButton" type="button" class="btn btn-primary btn-lg">返回</button>
+		   
+		</div>
+	</div>
+
+  </body>
+</html>

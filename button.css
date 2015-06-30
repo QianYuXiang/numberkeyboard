@@ -1,0 +1,33 @@
+button {
+	margin: 3px 2px;
+	width: 55px;
+	height: 45px;
+}
+
+#c {
+	padding: 0px;
+	font-size: 14px;
+}
+
+.numberkeyboard {
+	margin: 5px 3px;
+	height: 280px;
+}
+
+#passport {
+	margin: 1.5px;
+	text-align: right;
+}
+
+button#sure {
+	border: 0px;
+	background-color: rgb(0,188,171);
+	height: 36px;
+	font-size: 14px;
+	padding: 0px;
+	text-align: center center;
+}
+
+.numberkeyboard-width {
+	width: 248px;
+}

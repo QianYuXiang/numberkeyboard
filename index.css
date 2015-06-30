@@ -1,0 +1,27 @@
+.indexPane {
+	width: 499px;
+	height: 366px;
+}
+
+.slogan {
+	width: 413px;
+	height: 56px;
+	background-color: gray;
+	opacity: 80%;
+}
+
+.showtips {
+	width: 483px;
+	height: 215px;
+	background-color: gray;
+	opacity: 80%;
+}
+
+.indexButton {
+	border: 0px;
+	margin: 1px 0px 1px 0px;
+	background-color: rgb(255, 195, 0);
+	width: 240px;
+	height: 52px;
+	padding: 0px;
+}
